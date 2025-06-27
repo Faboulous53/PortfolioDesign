@@ -6,6 +6,7 @@ import Hero from '@/components/home/Hero';
 import About from '@/components/home/About';
 import Projects from '@/components/home/Projects';
 import Contact from '@/components/home/Contact';
+import Loisirs  from '@/components/home/Loisirs';
 
 const Index: React.FC = () => {
   useEffect(() => {
@@ -18,6 +19,7 @@ const Index: React.FC = () => {
       <main className="flex-grow">
         <Hero />
         <About />
+        <Loisirs/>
         <Projects />
         <Contact />
       </main>

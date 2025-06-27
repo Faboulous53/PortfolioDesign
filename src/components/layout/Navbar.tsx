@@ -5,9 +5,10 @@ import { Menu, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const navItems = [
-  { name: 'Home', href: '#home' },
-  { name: 'About', href: '#about' },
+  { name: 'Accueil', href: '#accueil' },
+  { name: 'Poste occupé', href: '#about' },
   { name: 'Projects', href: '#projects' },
+  { name: 'Loisirs', href: '#loisirs' },
   { name: 'Contact', href: '#contact' },
 ];
 
@@ -43,7 +44,7 @@ export const Navbar: React.FC = () => {
             to="/"
             className="text-xl font-display font-bold tracking-tight"
           >
-            Portfolio
+           <img src="../public/assets/images/fab-logo-200.webp" alt="Logo faboulous developpement" />
           </Link>
 
           {/* Desktop navigation */}

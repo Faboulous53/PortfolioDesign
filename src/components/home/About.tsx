@@ -4,35 +4,35 @@ import { Code, Layout, Lightbulb, Sparkles } from 'lucide-react';
 import Reveal from '../ui/Reveal';
 
 const skills = [
-  'UI/UX Design',
-  'Web Development',
-  'React',
+  'HTML',
+  'CSS/SCSS',
+  'Javascript',
   'TypeScript',
-  'Figma',
-  'Tailwind CSS',
-  'Next.js',
-  'Motion Design',
+  'KnockoutJS',
+  'C#',
+  'VB.NET',
+  'SSMS',
 ];
 
 const services = [
   {
     icon: <Layout className="w-6 h-6" />,
-    title: 'UI/UX Design',
+    title: 'HTML',
     description: 'Creating intuitive and beautiful interfaces that enhance user experience and engagement.'
   },
   {
     icon: <Code className="w-6 h-6" />,
-    title: 'Web Development',
+    title: 'CSS/SCSS',
     description: 'Building responsive, accessible, and performant websites and web applications.'
   },
   {
     icon: <Lightbulb className="w-6 h-6" />,
-    title: 'Brand Identity',
+    title: 'Typescript',
     description: 'Crafting cohesive visual languages that communicate brand values and personality.'
   },
   {
     icon: <Sparkles className="w-6 h-6" />,
-    title: 'Interaction Design',
+    title: 'Javascript',
     description: 'Designing meaningful animations and micro-interactions to delight users.'
   }
 ];
@@ -43,7 +43,7 @@ export const About: React.FC = () => {
       <div className="section-container">
         <Reveal>
           <span className="inline-block py-1 px-3 mb-6 text-xs font-medium bg-primary/10 rounded-full">
-            About Me
+            Actuellement
           </span>
         </Reveal>
         
@@ -51,19 +51,19 @@ export const About: React.FC = () => {
           <div>
             <Reveal>
               <h2 className="section-title">
-                Passionate about creating <span className="text-primary">impactful designs</span>
+                Analyste <span className="text-primary">Développeur Informatique</span>
               </h2>
             </Reveal>
             
             <Reveal delay={100}>
               <p className="text-lg text-muted-foreground mb-6">
-                I'm a designer and developer with a passion for creating digital experiences that are both beautiful and functional. With a keen eye for detail and a commitment to user-centered design, I strive to create work that makes a lasting impression.
+                Mon travail consiste à développer et maintenir des configurateurs de produits sur mesure utilisés par l'ADV interne mais aussi par les clients B2B.
               </p>
             </Reveal>
             
             <Reveal delay={200}>
               <p className="text-lg text-muted-foreground mb-8">
-                My approach combines strategic thinking with creative execution, ensuring that every project not only looks great but also achieves its objectives.
+                La complexité implémentée, indispensable pour ce genre de projet, me permet de me perfectionner chaque jour et d'en apprendre d'avantage dans le monde du développement informatique. 
               </p>
             </Reveal>
             
@@ -85,8 +85,8 @@ export const About: React.FC = () => {
             <Reveal direction="left">
               <div className="glass-card rounded-2xl overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d" 
-                  alt="Designer working" 
+                  src="../public/assets/images/maxresdefault.jpg" 
+                  alt="Logo Cf group" 
                   className="w-full h-auto object-cover"
                   loading="lazy"
                 />
