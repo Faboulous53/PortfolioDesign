@@ -43,7 +43,7 @@ export const Contact: React.FC = () => {
         e.preventDefault();
 
         const serviceId = 'service_piio3b9';
-        const templateId = 'template_phxcszw';
+        const templateId = 'template_3kn7zy8';
         const publicKey = 'yuMNQQqGFW29awaM_';
 
         const templateParams = {
