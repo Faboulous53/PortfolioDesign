@@ -5,36 +5,36 @@ import Reveal from '../ui/Reveal';
 
 const loisirs = [
   {
-    title: 'E-Commerce Redesign',
-    description: 'A complete redesign of an e-commerce platform focused on improving user experience and conversion rates.',
-    image: 'https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7',
-    tags: ['UI/UX Design', 'Frontend Development', 'E-Commerce'],
-    liveUrl: '#',
-    githubUrl: '#',
+    title: 'Gaming',
+    description: 'Passionné de jeux vidéo depuis mon enfance!',
+    image: '../public/assets/images/gaming.webp',
+    tags: ['Jeux de rôle', 'Jeux de simulations', 'RPG'],
+    liveUrl: '',
+    githubUrl: '',
   },
   {
-    title: 'Finance Dashboard',
-    description: 'An intuitive dashboard for tracking financial metrics with real-time data visualization.',
-    image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6',
-    tags: ['Web App', 'Data Visualization', 'React'],
-    liveUrl: '#',
-    githubUrl: '#',
+    title: 'Fan du RC LENS',
+    description: 'Fidèle supporter du club de foot emblématique des Hauts de France!',
+    image: '../public/assets/images/logo rc lens.webp',
+    tags: [],
+    liveUrl: '',
+    githubUrl: '',
   },
   {
-    title: 'Travel App',
-    description: 'A mobile-first web application designed to help users discover and plan their perfect trip.',
-    image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b',
-    tags: ['React', 'Mobile Design', 'API Integration'],
-    liveUrl: '#',
-    githubUrl: '#',
+    title: 'Impression 3D',
+    description: 'Passionné par la technologie numérique, j\'occupe beaucoup de mon temps libre afin de me perfectionner dans ce domaine, aussi bien dans la modélisation que dans l\'impression 3D.',
+    image: '../public/assets/images/What-is-3D-Printing.jpg',
+    tags: ['Bambulab X1C', 'Elegoo', 'Fusion 360', 'Blender','Lychee'],
+    liveUrl: '',
+    githubUrl: '',
   },
   {
-    title: 'Design System',
-    description: 'A comprehensive design system built for scaling design across multiple products and platforms.',
-    image: 'https://images.unsplash.com/photo-1483058712412-4245e9b90334',
-    tags: ['Design Systems', 'Documentation', 'Component Library'],
-    liveUrl: '#',
-    githubUrl: '#',
+    title: 'Éleveur d\'inséparables',
+    description: 'Depuis 2013, j\'élève des inséprables principalement l\'agapornis taranta à titre amateur (Et oui, l\'on compte 9 espèces différentes d\'inséparable).',
+    image: '../public/assets/images/aga1.webp',
+    tags: ['Plusieurs fois champion de France', 'Articles rédigés dans des revues spécialisées'],
+    liveUrl: '',
+    githubUrl: '',
   },
 ];
 
@@ -44,19 +44,19 @@ export const Loisirs: React.FC = () => {
       <div className="section-container">
         <Reveal>
           <span className="inline-block py-1 px-3 mb-6 text-xs font-medium bg-primary/10 rounded-full">
-            My Work
+            Loisirs
           </span>
         </Reveal>
         
         <Reveal>
           <h2 className="section-title">
-            Featured <span className="text-primary">Projects</span>
+            En dehors <span className="text-primary">du dev</span>
           </h2>
         </Reveal>
         
         <Reveal delay={100}>
           <p className="section-subtitle">
-            A selection of my recent work, demonstrating my skills in design and development.
+            Voici les principales activités que je pratique.
           </p>
         </Reveal>
         
@@ -120,8 +120,7 @@ export const Loisirs: React.FC = () => {
                   <a 
                     href={loisirs.liveUrl} 
                     className="mt-auto flex items-center text-sm font-medium hover:underline"
-                  >
-                    View Project <ArrowUpRight size={16} className="ml-1" />
+                  >                   
                   </a>
                 </div>
               </div>

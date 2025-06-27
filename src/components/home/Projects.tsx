@@ -5,37 +5,21 @@ import Reveal from '../ui/Reveal';
 
 const projects = [
   {
-    title: 'E-Commerce Redesign',
-    description: 'A complete redesign of an e-commerce platform focused on improving user experience and conversion rates.',
-    image: 'https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7',
-    tags: ['UI/UX Design', 'Frontend Development', 'E-Commerce'],
-    liveUrl: '#',
-    githubUrl: '#',
+    title: 'Site officiel du Trail-Muco du pays de Vité',
+    description: 'Parce qu\'il est important que chacun puisse s\'engager à sa manière, j\'ai conçu et je continue d\'entretenir, de façon totalement bénévole, ce site dédié à une association qui organise chaque année un trail solidaire. Tous les bénéfices de cet événement sont reversés à la lutte contre la mucoviscidose.',
+    image: '../public/assets/images/trailmuco.png',
+    tags: ['React', 'MySql', 'Scss','Html'],
+    liveUrl: 'https://trailmuco.fr/',
+    githubUrl: '',
   },
   {
-    title: 'Finance Dashboard',
-    description: 'An intuitive dashboard for tracking financial metrics with real-time data visualization.',
-    image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6',
-    tags: ['Web App', 'Data Visualization', 'React'],
-    liveUrl: '#',
-    githubUrl: '#',
-  },
-  {
-    title: 'Travel App',
-    description: 'A mobile-first web application designed to help users discover and plan their perfect trip.',
-    image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b',
-    tags: ['React', 'Mobile Design', 'API Integration'],
-    liveUrl: '#',
-    githubUrl: '#',
-  },
-  {
-    title: 'Design System',
-    description: 'A comprehensive design system built for scaling design across multiple products and platforms.',
-    image: 'https://images.unsplash.com/photo-1483058712412-4245e9b90334',
-    tags: ['Design Systems', 'Documentation', 'Component Library'],
-    liveUrl: '#',
-    githubUrl: '#',
-  },
+    title: 'Cooking App',
+    description: 'Petite application créée à la suite de mon apprentissage afin de me perfectionner dans l\'appel d\'API et ainsi se familiariser avec le format JSON.',
+    image: '../public/assets/images/cookingapp.png',
+    tags: ['Web App', 'API', 'React'],
+    liveUrl: 'https://cookingapp-fabien-delpierre.netlify.app/',
+    githubUrl: '',
+  }
 ];
 
 export const Projects: React.FC = () => {
@@ -44,19 +28,21 @@ export const Projects: React.FC = () => {
       <div className="section-container">
         <Reveal>
           <span className="inline-block py-1 px-3 mb-6 text-xs font-medium bg-primary/10 rounded-full">
-            My Work
+            Projets
           </span>
         </Reveal>
         
         <Reveal>
           <h2 className="section-title">
-            Featured <span className="text-primary">Projects</span>
+            Projets <span className="text-primary">Pro</span>
           </h2>
         </Reveal>
         
         <Reveal delay={100}>
           <p className="section-subtitle">
-            A selection of my recent work, demonstrating my skills in design and development.
+            J'ai réalisé plusieurs projets malheureusement pour la plupart, je n'ai pas l'autorisation de les présenter ici.<br></br>
+            De plus, ayant rapidement trouvé un emploi dans le domaine, je n'ai plus besoin de m'exercer à titre personnel. Mon travail me permet largement de monter chaque jour un peu plus en compétences!<br></br> 
+            Voici tout de même un petit échantillon!
           </p>
         </Reveal>
         
@@ -68,7 +54,7 @@ export const Projects: React.FC = () => {
                   <img 
                     src={project.image} 
                     alt={project.title} 
-                    className="absolute top-0 left-0 w-full h-full object-cover transform transition-all duration-500 hover:scale-105"
+                    className="absolute top-0 left-0 w-50 h-50 object-cover transform transition-all duration-500 hover:scale-105"
                     loading="lazy"
                   />
                 </div>
