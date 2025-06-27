@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Code, Layout, Lightbulb, Sparkles } from 'lucide-react';
+import { Code, Layout, Lightbulb, UsersRound } from 'lucide-react';
 import Reveal from '../ui/Reveal';
 
 const skills = [
@@ -17,23 +17,23 @@ const skills = [
 const services = [
   {
     icon: <Layout className="w-6 h-6" />,
-    title: 'HTML',
-    description: 'Creating intuitive and beautiful interfaces that enhance user experience and engagement.'
+    title: 'Organisation',
+    description: 'Respect des cahiers des charges, organisation de travail à l\'aide d\'outils de type planner.'
   },
   {
     icon: <Code className="w-6 h-6" />,
-    title: 'CSS/SCSS',
-    description: 'Building responsive, accessible, and performant websites and web applications.'
+    title: 'Veille technologique',
+    description: 'Se tenir à jour des évolutions constantes qui régissent l\'univers du développement.'
   },
   {
     icon: <Lightbulb className="w-6 h-6" />,
-    title: 'Typescript',
-    description: 'Crafting cohesive visual languages that communicate brand values and personality.'
+    title: 'Créativité',
+    description: 'Savoir faire force de proposition afin de proposer des solutions adaptées à la problématique.'
   },
   {
-    icon: <Sparkles className="w-6 h-6" />,
-    title: 'Javascript',
-    description: 'Designing meaningful animations and micro-interactions to delight users.'
+    icon: <UsersRound  className="w-6 h-6" />,
+    title: 'Collaboration',
+    description: 'Le travail collaboratif est indispensable dans cet environnement. Git l\'indétronable dans le domaine fait partit de mon quotidien.'
   }
 ];
 
@@ -97,7 +97,7 @@ export const About: React.FC = () => {
         
         <Reveal>
           <h3 className="text-2xl md:text-3xl font-display font-bold mt-20 mb-10">
-            Services I Offer
+            Soft skills
           </h3>
         </Reveal>
         
