@@ -40,7 +40,7 @@ export const Hero: React.FC = () => {
                         <Reveal delay={300}>
                             <div className="flex flex-wrap gap-4">
                                 <a
-                                    href="../public/assets/Documents/CV Delpierre Fabien 2025.pdf"
+                                    href="./assets/Documents/CV Delpierre Fabien 2025.pdf"
                                     target="_blank"
                                     className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide bg-primary text-primary-foreground rounded-md transition duration-200 hover:bg-primary/90 focus:shadow-outline focus:outline-none"
                                 >
@@ -61,7 +61,7 @@ export const Hero: React.FC = () => {
                             <div className="relative z-10">
                                 <div className="rounded-2xl overflow-hidden animate-image-glow inline-block">
                                     <img
-                                        src="../public/assets/images/IMG_6240.webp"
+                                        src="./assets/images/IMG_6240.webp"
                                         alt="photo Delpierre Fabien"
                                         loading="lazy"
                                         className="h-auto w-auto max-w-full"

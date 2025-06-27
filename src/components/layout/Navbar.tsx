@@ -44,7 +44,7 @@ export const Navbar: React.FC = () => {
             to="/"
             className="text-xl font-display font-bold tracking-tight"
           >
-           <img src="../public/assets/images/fab-logo-200.webp" alt="Logo faboulous developpement" />
+           <img src="./assets/images/fab-logo-200.webp" alt="Logo faboulous developpement" />
           </Link>
 
           {/* Desktop navigation */}

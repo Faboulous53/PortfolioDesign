@@ -85,7 +85,7 @@ export const About: React.FC = () => {
             <Reveal direction="left">
               <div className="glass-card rounded-2xl overflow-hidden">
                 <img 
-                  src="../public/assets/images/maxresdefault.jpg" 
+                  src="./assets/images/maxresdefault.jpg" 
                   alt="Logo Cf group" 
                   className="w-full h-auto object-cover"
                   loading="lazy"

@@ -7,7 +7,7 @@ const loisirs = [
   {
     title: 'Gaming',
     description: 'Passionné de jeux vidéo depuis mon enfance!',
-    image: '../public/assets/images/gaming.webp',
+    image: './assets/images/gaming.webp',
     tags: ['Jeux de rôle', 'Jeux de simulations', 'RPG'],
     liveUrl: '',
     githubUrl: '',
@@ -15,7 +15,7 @@ const loisirs = [
   {
     title: 'Fan du RC LENS',
     description: 'Fidèle supporter du club de foot emblématique des Hauts de France!',
-    image: '../public/assets/images/logo rc lens.webp',
+    image: './assets/images/logo rc lens.webp',
     tags: [],
     liveUrl: '',
     githubUrl: '',
@@ -23,7 +23,7 @@ const loisirs = [
   {
     title: 'Impression 3D',
     description: 'Passionné par la technologie numérique, j\'occupe beaucoup de mon temps libre afin de me perfectionner dans ce domaine, aussi bien dans la modélisation que dans l\'impression 3D.',
-    image: '../public/assets/images/What-is-3D-Printing.jpg',
+    image: './assets/images/What-is-3D-Printing.jpg',
     tags: ['Bambulab X1C', 'Elegoo', 'Fusion 360', 'Blender','Lychee'],
     liveUrl: '',
     githubUrl: '',
@@ -31,7 +31,7 @@ const loisirs = [
   {
     title: 'Éleveur d\'inséparables',
     description: 'Depuis 2013, j\'élève des inséprables principalement l\'agapornis taranta à titre amateur (Et oui, l\'on compte 9 espèces différentes d\'inséparable).',
-    image: '../public/assets/images/aga1.webp',
+    image: './assets/images/aga1.webp',
     tags: ['Plusieurs fois champion de France', 'Articles rédigés dans des revues spécialisées'],
     liveUrl: '',
     githubUrl: '',

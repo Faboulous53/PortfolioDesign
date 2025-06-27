@@ -10,7 +10,7 @@ import Loisirs  from '@/components/home/Loisirs';
 
 const Index: React.FC = () => {
   useEffect(() => {
-    document.title = 'Portfolio | Professional Designer & Developer';
+    document.title = 'Delpierre Fabien Développeur web';
   }, []);
 
   return (
