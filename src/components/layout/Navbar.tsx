@@ -34,7 +34,7 @@ export const Navbar: React.FC = () => {
       className={cn(
         'fixed top-0 left-0 right-0 z-50 transition-all duration-300 ease-in-out',
         isScrolled
-          ? 'py-4 bg-white/80 backdrop-blur-lg shadow-sm'
+          ? 'py-4 bg-white/80 backdrop-blur-lg shadow-sm text-black'
           : 'py-6 bg-transparent'
       )}
     >

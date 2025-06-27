@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Github, Linkedin, Mail, Twitter } from 'lucide-react';
+import { Github, Linkedin, Mail, Twitter , Facebook } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -10,19 +10,19 @@ export const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <h3 className="text-lg font-display font-bold">Portfolio</h3>
+            <h3 className="text-lg font-display font-bold">Portfolio Delpierre Fabien</h3>
             <p className="text-sm text-muted-foreground mt-1">
-              Designed and built with precision
+              Design et création fromscratch
             </p>
           </div>
           
-          <div className="flex space-x-6">
+          {/* <div className="flex space-x-6">
             <a 
               href="#" 
               className="text-muted-foreground hover:text-foreground transition-colors"
-              aria-label="GitHub profile"
+              aria-label="Facebook profile"
             >
-              <Github size={20} />
+              <Facebook size={20} />
             </a>
             <a 
               href="#" 
@@ -45,13 +45,14 @@ export const Footer: React.FC = () => {
             >
               <Mail size={20} />
             </a>
-          </div>
-        </div>
+          </div>*/}
+          <p className="text-sm text-center text-muted-foreground">
+            © {currentYear} delpierre-fabien.fr, tous droits réservés.
+          </p>
+        </div> 
         
         <div className="mt-8 pt-8 border-t border-border">
-          <p className="text-sm text-center text-muted-foreground">
-            © {currentYear} Portfolio. All rights reserved.
-          </p>
+          
         </div>
       </div>
     </footer>
