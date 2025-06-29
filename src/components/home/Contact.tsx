@@ -141,7 +141,7 @@ export const Contact: React.FC = () => {
                             className="bg-black rounded-2xl shadow-md p-8"
                         >
                             <h3 className="text-xl font-display font-bold mb-6">
-                                Envoyez moi un message:
+                                Envoyez-moi un message:
                             </h3>
 
                             <div className="space-y-4">
@@ -198,7 +198,7 @@ export const Contact: React.FC = () => {
                                         onChange={handleChange}
                                         rows={5}
                                         className="w-full px-4 py-3 border border-input rounded-md focus:outline-none focus:ring-2 focus:ring-primary/20 text-black"
-                                        placeholder="Bonjour, je vous propose 50k net par mois..."
+                                        placeholder="exemple: Bonjour, je vous propose 50k net par mois..."
                                     />
                                 </div>
 

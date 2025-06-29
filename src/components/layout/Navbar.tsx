@@ -6,7 +6,7 @@ import { cn } from '@/lib/utils';
 const navItems = [
     { name: 'Accueil', href: '#accueil' },
     { name: 'Poste occupé', href: '#about' },
-    { name: 'Projects', href: '#projects' },
+    { name: 'Projets', href: '#projects' },
     { name: 'Loisirs', href: '#loisirs' },
     { name: 'Contact', href: '#contact' },
 ];
@@ -50,7 +50,7 @@ export const Navbar: React.FC = () => {
                     </Link>
 
                     {/* Desktop navigation */}
-                    <nav className="hidden md:flex space-x-8">
+                    <nav className={cn("hidden md:flex space-x-8",isScrolled? 'text-black' : 'text-white' )}>
                         {navItems.map((item) => (
                             <a
                                 key={item.name}
@@ -63,21 +63,16 @@ export const Navbar: React.FC = () => {
                     </nav>
 
                     {/* Mobile menu button */}
-                    <button
-                        onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                        //className="md:hidden focus:outline-none text-white"
-                        className={cn(
-                            'className="md:hidden focus:outline-none text-white',
-                            isScrolled ? 'text-black' : 'text-white'
-                        )}
-                        aria-label="Toggle menu"
-                    >
-                        {isMobileMenuOpen ? (
-                            <X size={24} />
-                        ) : (
-                            <Menu size={24} />
-                        )}
-                    </button>
+<button
+  onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+  className={cn(
+    'md:hidden focus:outline-none',
+    isScrolled ? 'text-black' : 'text-white'
+  )}
+  aria-label="Toggle menu"
+>
+  {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+</button>
                 </div>
             </div>
 

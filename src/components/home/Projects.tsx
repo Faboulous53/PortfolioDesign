@@ -107,7 +107,7 @@ export const Projects: React.FC = () => {
                     href={project.liveUrl} 
                     className="mt-auto flex items-center text-sm font-medium hover:underline"
                   >
-                    View Project <ArrowUpRight size={16} className="ml-1" />
+                    Voir le projet <ArrowUpRight size={16} className="ml-1" />
                   </a>
                 </div>
               </div>
