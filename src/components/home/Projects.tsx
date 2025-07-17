@@ -5,7 +5,7 @@ import Reveal from '../ui/Reveal';
 
 const projects = [
   {
-    title: 'Site officiel du Trail-Muco du pays de Vité',
+    title: 'Site officiel du Trail-Muco du Pays de Vitré',
     description: 'Parce qu\'il est important que chacun puisse s\'engager à sa manière, j\'ai conçu et je continue d\'entretenir, de façon totalement bénévole, ce site dédié à une association qui organise chaque année un trail solidaire. Tous les bénéfices de cet événement sont reversés à la lutte contre la mucoviscidose.',
     image: './assets/images/trailmuco.png',
     tags: ['React', 'MySql', 'Scss','Html'],
